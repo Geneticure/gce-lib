@@ -3,6 +3,17 @@
 ## JS
 
 - Use `data-` attributes to select items with JS, not CSS classes.
+- Use the global namespace when calling global variables.
+
+    Yes:
+    ```js
+    window.location
+    ```
+
+    No:
+    ```js
+    location
+    ```
 
 ## CSS
 

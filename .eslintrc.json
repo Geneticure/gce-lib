@@ -1,18 +1,11 @@
 {
 	"extends": [
 		"eslint:recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended"
+		"plugin:@typescript-eslint/eslint-recommended",
+		"plugin:@typescript-eslint/recommended"
 	],
 	"parser": "@typescript-eslint/parser",
-	"parserOptions": {
-		"ecmaFeatures": {
-			"modules": true
-		},
-		"ecmaVersion": "latest",
-		"project": "./tsconfig.json",
-		"sourceType": "module"
-	},
+	"plugins": ["@typescript-eslint"],
 	"rules": {
 		"comma-dangle": ["warn", "always-multiline"],
 		"curly": ["warn", "all"],
