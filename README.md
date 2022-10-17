@@ -121,7 +121,7 @@ Note that `stylelint.extends` appears to work fine regardless of whether you spe
     ```
 
     Yes:
-    ``
+    ```
     .hero {
         &__bg {}
 
